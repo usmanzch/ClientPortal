@@ -1,0 +1,78 @@
+<html>
+
+   <head>
+
+     <title>CC&#169</title>
+
+     <style type="text/css">
+.text {
+position: relative;
+  bottom: 200px;
+  right: 410px;
+  margin: 80px auto;
+  width: 400px;
+ 
+}
+     
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+
+     </style>
+     
+<link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+
+  <body>
+
+    
+	<div id="background">
+ 	   <img src="background.jpg" class="stretch" alt="" />
+	</div>
+
+
+	     
+
+ 
+<div>
+	  <form method="post" action="cgi-bin/Login.py" class="login">
+	   
+	      <label for="login">Email:</label>
+	      <input type="text" name="login" id="login" value="">
+	    </p>
+	
+	    <p>
+	      <label for="password">Password:</label>
+	      <input type="password" name="password" id="password" value="">
+	    </p>
+	
+	    <p class="login-submit">
+	      <button type="submit" class="login-button" id="submit" >Login</button>
+	    </p>
+	
+	    <p class="forgot-password"><a href="default.html">Forgot your password?</a></p></div>
+	
+	    	  
+	      <p class="text"><font color="#a8a7a8">Welcome to our Secure Site login. Within our Secure Site clients have access to a variety of information such as account balances, statements, tax information, investment information and more.</font></p> 
+	
+	    
+	  </form>
+  
+
+
+  </body>
+
+</html>
